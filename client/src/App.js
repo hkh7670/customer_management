@@ -48,25 +48,6 @@ const customers = [
   }
 ];
 
-// function App() {
-//   return (
-//     <div className="App">
-//       {customers.map(customer => {
-//         return (
-//           <Customer
-//             id={customer.id}
-//             image={customer.image}
-//             name={customer.name}
-//             birthday={customer.birthday}
-//             gender={customer.gender}
-//             job={customer.job}
-//           />
-//         );
-//       })}
-//     </div>
-//   );
-// }
-
 class App extends React.Component {
   render() {
     const { classes } = this.props;
